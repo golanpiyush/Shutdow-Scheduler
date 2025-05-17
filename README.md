@@ -37,7 +37,7 @@ Restart in 24 minutes
 | `-h`    | 🆘 Show help          |
 
 
-###📦 Requirements
+### 📦 Requirements
 Install dependencies using pip:
 ```
 pip install prompt_toolkit colorama psutil pillow pystray
@@ -49,6 +49,8 @@ pip install prompt_toolkit colorama psutil pillow pystray
 ✅ Linux: Uses systemctl, shutdown, and gnome-screensaver-command
 
 ```Battery detection used to distinguish laptops vs desktops to limit maximum schedule hours (6 hrs for laptops, 10 hrs for desktops)```
+
+-----
 ### 🛠 How It Works
 
 Starts a system tray icon in the background with a “Quit” menu.
@@ -67,7 +69,7 @@ Every action is logged in the shutdowns.log file in the same directory with a ti
 
 Example:
 ```Auto Lock at 2025-05-17 ::: 21:44:12```
-
+-----
 ### 💡 Tips
 Use decimal values for hours like 0.25 (15 mins), 1.5 (90 mins)
 
@@ -83,7 +85,7 @@ A minimal icon appears in your system tray upon launch.
 Right-click and choose "Quit" to stop the scheduler and exit the app.
 
 Useful when the app is minimized or running in the background.
-
+------
 ### 🧪 Future Improvements (Ideas)
  GUI version with drag-and-drop time sliders
 
@@ -94,7 +96,7 @@ Useful when the app is minimized or running in the background.
  Multi-user profile support
 
 ### 🧑‍💻 Author
-Made with ❤️ by Flywich (Piyush)
-
+**(Piyush Golan)
+**
 ### 📜 License
 MIT License — free to use, modify, and share.
