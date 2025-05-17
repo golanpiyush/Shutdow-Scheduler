@@ -41,6 +41,8 @@ Restart in 24 minutes
 Install dependencies using pip:
 ```
 pip install prompt_toolkit colorama psutil pillow pystray
+&
+pip install -r requirements.txt
 ```
 
 ### 🖥 Platform Compatibility
